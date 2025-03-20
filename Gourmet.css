@@ -1,0 +1,295 @@
+body {
+    min-width: 1100px;
+}
+
+header {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 0px 30px;
+}
+
+header ul li a {
+    color: rgba(65, 61, 61, 0.594);
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+
+}
+
+/*検索フォーム*/
+
+.searchArea {
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+    background-color: #fdf4f4;
+    align-items: center;
+}
+label {
+    margin-right: 10px;
+}
+ 
+.searchArea .searchText {
+  display        : block;              /* ブロック化            */
+  box-sizing     : border-box;         /* 枠線,余白を含んだ長さ */
+  height         : 30px;               /* 入力の高さ            */
+  width          : 300px;              /* 入力の幅              */  
+  padding        : 6px 10px;             /* 内余白                */
+  border         : 1px solid gray;  /* 枠線　幅,実践,色      */
+}
+.searchArea .searchButton {
+  box-sizing     : border-box;         /* 枠線,余白を含んだ長さ */
+  margin         : 0;                  /* 外余白                */
+  padding        : 6px 10px;           /* 内余白                */
+  border         : none;               /* 枠線　幅,実践,色      */
+  background     : rgb(206, 201, 201);                /* ボタンの色            */
+  color          : rgb(72, 70, 70);               /* 文字色                */
+  cursor         : pointer;            /* カーソル設定          */
+  background-image: url("images2/icon_search.png");
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  padding-left: 30px;
+}
+
+/*メイン（注目エリア以下）*/
+.main_contents {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+main {
+    width: 800px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+h1 {
+    border-bottom: solid 1px rgba(122, 103, 74, 0.554);
+    padding: 30px 0px 10px 0px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 15px; /* 各アイテム間の上下余白を10px、左右余白を5pxに設定 */
+}
+
+.item {
+    border: solid 1px #80808052;
+    padding: 10px 15px; /* 上下の余白を10pxに設定し、左右の余白を15pxに設定 */
+    margin: 0px 0px 0px 0px; /* 上の余白を0にし、下の余白を10pxに設定、左右の余白は0に設定 */
+}
+
+.image-container {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+figure {
+    border: solid 1px #80808052;
+    margin: 0 auto;
+    margin: 10px 15px 0px 0px;
+}
+
+figcaption {
+    text-align: center;
+    padding: 5px;
+}
+
+.image-container a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+/* ライター*/
+
+.osusume {
+    display: flex;
+    gap: 0px 20px;
+}
+
+.SOBAKEBA {
+    border: solid 1px #80808052;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+.SOBAKEBA p {
+    letter-spacing: 0.1em;
+    font-size: 12px;
+}
+
+
+
+
+
+/* ユーザー*/
+.flex {
+    display: flex;
+}
+
+.flex_revewer_image {
+    display: flex;
+}
+
+.flex_reviewer_descriptione {
+    display: flex;
+}
+
+.review_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.review_content {
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: solid 1px #80808052;
+    margin: 0;
+    text-align: center;
+}
+
+
+.reviewer {
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #80808033;
+}
+
+.reviewer_description {
+    margin-left: 10px;
+}
+
+.reviewer_name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.reviewer_detail {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.display {
+    display: flex;
+    margin-top: 10px;
+    gap: 0px 20px;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.store_image {
+    display: flex;
+    margin-top: 10px;
+    gap: 0px 10px;
+}
+
+.review_content h2,
+p {
+    text-align: left;
+}
+
+.review_content p {
+    margin-bottom: 30px;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+/*右側のバナー*/
+aside {
+    width: 260px;
+    margin-left: 20px;
+}
+
+aside img {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* 下の設定系 */
+footer ul li {
+
+}
+
+footer ul li:last-child {
+    margin-right: 0; /* 最後のli要素の右マージンを0に */
+}
+
+footer ul {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    justify-content:center;
+    padding: 40px 0; /* 上下の余白を40px */
+    gap: 0 40px;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid #80808033;
+    margin-top: 40px;
+
+    
+}
+
+footer p {
+    background-color: #dcd5d5;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+footer p small {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+footer ul li a {
+    text-decoration: none;
+    /*margin-right: 40px;*/
+    color: black;
+    font-size: 20px;
+
+}
